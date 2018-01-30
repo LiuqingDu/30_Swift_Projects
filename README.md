@@ -10,4 +10,8 @@ Use **CocoaPods**, **SnapKit**, **Timer**.
 
 ## 03_Pull_To_Refresh
 ### Pull the tableview to refresh data
-Use **TableView**, **UIRefreshControl**, **Date**, **DateFormatter**
+Use **UITableView**, **UIRefreshControl**, **Date**, **DateFormatter**
+
+## 04_Emoji_Slot_Machine
+### A slot machine game using UIPickerView
+Use **UIPickerView** to make the view, **UILongPressGestureRecognizer** to make a gesture to cheat.
