@@ -15,3 +15,7 @@ Use **UITableView**, **UIRefreshControl**, **Date**, **DateFormatter**
 ## 04_Emoji_Slot_Machine
 ### A slot machine game using UIPickerView
 Use **UIPickerView** to make the view, **UILongPressGestureRecognizer** to make a gesture to cheat.
+
+## 05_Photo_Viewer
+### A photo viewer using gesture to resizing.
+Use **UIScrollView** to resize picture and display part of it.
