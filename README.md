@@ -19,3 +19,7 @@ Use **UIPickerView** to make the view, **UILongPressGestureRecognizer** to make 
 ## 05_Photo_Viewer
 ### A photo viewer using gesture to resizing.
 Use **UIScrollView** to resize picture and display part of it.
+
+## 06_Color_Gradient
+### Change UIView color gradient.
+Use **UIPanGestureRecognizer**, **CAGradientLayer**.
