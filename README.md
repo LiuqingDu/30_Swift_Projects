@@ -23,3 +23,7 @@ Use **UIScrollView** to resize picture and display part of it.
 ## 06_Color_Gradient
 ### Change UIView color gradient.
 Use **UIPanGestureRecognizer**, **CAGradientLayer**.
+
+## 07_Swipe_Row
+### Swipe on UITableViewRow, actions will display on the right.
+Use **UITableViewRowAction**, **UIAlertController**.
