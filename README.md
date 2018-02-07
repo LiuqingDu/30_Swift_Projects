@@ -27,3 +27,7 @@ Use **UIPanGestureRecognizer**, **CAGradientLayer**.
 ## 07_Swipe_Row
 ### Swipe on UITableViewRow, actions will display on the right.
 Use **UITableViewRowAction**, **UIAlertController**.
+
+## 08_Stretchy_Header
+### Pull UITableVIew down, the header picture will resize.
+Use **UIScrollView** - scrollViewDidScrol to get offset to resize picture.
