@@ -31,3 +31,7 @@ Use **UITableViewRowAction**, **UIAlertController**.
 ## 08_Stretchy_Header
 ### Pull UITableVIew down, the header picture will resize.
 Use **UIScrollView** - scrollViewDidScrol to get offset to resize picture.
+
+## 09_Video_Background
+### Spotify-like video background on UIViewController
+Use **AVPlayerViewController**
