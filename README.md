@@ -35,3 +35,13 @@ Use **UIScrollView** - scrollViewDidScrol to get offset to resize picture.
 ## 09_Video_Background
 ### Spotify-like video background on UIViewController
 Use **AVPlayerViewController**
+
+## 10_Tumblr_Menu
+### Tumber-like menu. Use tap gesture to display a motion effect menu.
+Use **UIVisualEffectView**, **animate()**.
+
+## 11_3D_Touch
+### Quick action with 3D touch press on home screen and peek view in app.
+Use **UIApplicationShortcutItem**, **UIViewControllerPreviewingDelegate**.
+
+
