@@ -45,3 +45,10 @@ Use **UIVisualEffectView**, **animate()**.
 Use **UIApplicationShortcutItem**, **UIViewControllerPreviewingDelegate**.
 
 
+## 12_Spotlight_Search
+### Search items in Spotlight.
+Use **CSSearchableItem** to create an item supports Spotlight. Use **CSSearchableItemAttributeSet** to configurate it.
+Implement
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity
+in AppDelegate.swift to process after selecting a result in Spotlight.
+
