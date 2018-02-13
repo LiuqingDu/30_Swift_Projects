@@ -52,3 +52,7 @@ Implement
     func application(_ application: UIApplication, continue userActivity: NSUserActivity
 in AppDelegate.swift to process after selecting a result in Spotlight.
 
+
+## 13_Today_Extension
+### Add today extension to Today View.
+Use **App Group** to share data between App and Extension. Use **NSUserDefault** to save and load data.
