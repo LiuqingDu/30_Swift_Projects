@@ -56,3 +56,7 @@ in AppDelegate.swift to process after selecting a result in Spotlight.
 ## 13_Today_Extension
 ### Add today extension to Today View.
 Use **App Group** to share data between App and Extension. Use **NSUserDefault** to save and load data.
+
+## 14_Core_Data
+### Use Core Data to save and load data.
+Use **CoreData** kit. Define entity first. Use *appDelegate.persistentContainer.viewContext* to save and read data.
