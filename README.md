@@ -1,26 +1,26 @@
-# 30_Swift_Projects
+# 30 Swift Projects
 
-## 01_Change_Font
+## 01. Change Font
 ### Change font by pressing button.
 Use **CocoaPods** to manage frameworks, **SnapKit** for autolaying.
 
-## 02_Timer
+## 02. Timer
 ### A simple timer tool
 Use **CocoaPods**, **SnapKit**, **Timer**.
 
-## 03_Pull_To_Refresh
+## 03. Pull To Refresh
 ### Pull the tableview to refresh data
 Use **UITableView**, **UIRefreshControl**, **Date**, **DateFormatter**
 
-## 04_Emoji_Slot_Machine
+## 04. Emoji Slot Machine
 ### A slot machine game using UIPickerView
 Use **UIPickerView** to make the view, **UILongPressGestureRecognizer** to make a gesture to cheat.
 
-## 05_Photo_Viewer
+## 05. Photo Viewer
 ### A photo viewer using gesture to resizing.
 Use **UIScrollView** to resize picture and display part of it.
 
-## 06_Color_Gradient
+## 06 Color Gradient
 ### Change UIView color gradient.
 Use **UIPanGestureRecognizer**, **CAGradientLayer**.
 
