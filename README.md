@@ -81,3 +81,11 @@ Use `UIImagePickerControllerDelegate` to select photo from library. Use `UIImage
 ## 16. QR Code
 ### Generate QR code.
 Use `Core Image`, `CIFilter` to generate QR code.
+
+
+
+## 17. Face Detect
+
+### Detect face in photo.
+
+Use`Core Image`, `CIDetector`to detect face.
