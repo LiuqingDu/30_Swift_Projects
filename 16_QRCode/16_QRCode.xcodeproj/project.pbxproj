@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5F5E25D2043E259000321C2 /* 16——QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16——QRCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F5E25D2043E259000321C2 /* 16_QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 16_QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F5E2602043E259000321C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F5E2622043E259000321C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5F5E2652043E259000321C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		E5F5E2542043E259000321C2 = {
 			isa = PBXGroup;
 			children = (
-				E5F5E25F2043E259000321C2 /* 16——QRCode */,
+				E5F5E25F2043E259000321C2 /* 16_QRCode */,
 				E5F5E25E2043E259000321C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		E5F5E25E2043E259000321C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5F5E25D2043E259000321C2 /* 16——QRCode.app */,
+				E5F5E25D2043E259000321C2 /* 16_QRCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5F5E25F2043E259000321C2 /* 16——QRCode */ = {
+		E5F5E25F2043E259000321C2 /* 16_QRCode */ = {
 			isa = PBXGroup;
 			children = (
 				E5F5E2602043E259000321C2 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				E5F5E2692043E259000321C2 /* LaunchScreen.storyboard */,
 				E5F5E26C2043E259000321C2 /* Info.plist */,
 			);
-			path = "16——QRCode";
+			path = 16_QRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5F5E25C2043E259000321C2 /* 16——QRCode */ = {
+		E5F5E25C2043E259000321C2 /* 16_QRCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5F5E26F2043E259000321C2 /* Build configuration list for PBXNativeTarget "16——QRCode" */;
+			buildConfigurationList = E5F5E26F2043E259000321C2 /* Build configuration list for PBXNativeTarget "16_QRCode" */;
 			buildPhases = (
 				E5F5E2592043E259000321C2 /* Sources */,
 				E5F5E25A2043E259000321C2 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "16——QRCode";
-			productName = "16——QRCode";
-			productReference = E5F5E25D2043E259000321C2 /* 16——QRCode.app */;
+			name = 16_QRCode;
+			productName = "16_QRCode";
+			productReference = E5F5E25D2043E259000321C2 /* 16_QRCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5F5E2582043E259000321C2 /* Build configuration list for PBXProject "16——QRCode" */;
+			buildConfigurationList = E5F5E2582043E259000321C2 /* Build configuration list for PBXProject "16_QRCode" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5F5E25C2043E259000321C2 /* 16——QRCode */,
+				E5F5E25C2043E259000321C2 /* 16_QRCode */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YBFQ59LED;
-				INFOPLIST_FILE = "16——QRCode/Info.plist";
+				INFOPLIST_FILE = 16_QRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duliuqing.-6--QRCode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YBFQ59LED;
-				INFOPLIST_FILE = "16——QRCode/Info.plist";
+				INFOPLIST_FILE = 16_QRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duliuqing.-6--QRCode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5F5E2582043E259000321C2 /* Build configuration list for PBXProject "16——QRCode" */ = {
+		E5F5E2582043E259000321C2 /* Build configuration list for PBXProject "16_QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5F5E26D2043E259000321C2 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5F5E26F2043E259000321C2 /* Build configuration list for PBXNativeTarget "16——QRCode" */ = {
+		E5F5E26F2043E259000321C2 /* Build configuration list for PBXNativeTarget "16_QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5F5E2702043E259000321C2 /* Debug */,

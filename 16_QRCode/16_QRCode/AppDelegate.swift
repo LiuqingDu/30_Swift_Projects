@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  16——QRCode
+//  16_QRCode
 //
 //  Created by Liuqing Du on 2018/2/26.
 //  Copyright © 2018年 JuneDesign. All rights reserved.
