@@ -1,9 +1,13 @@
 # 30 Swift Projects
 
 
+
+
 ## 01. Change Font
 ### Change font by pressing button.
 Use `CocoaPods` to manage frameworks, `SnapKit` for autolaying.
+
+
 
 
 ## 02. Timer
@@ -11,9 +15,13 @@ Use `CocoaPods` to manage frameworks, `SnapKit` for autolaying.
 Use `CocoaPods`, `SnapKit`, `Timer`.
 
 
+
+
 ## 03. Pull To Refresh
 ### Pull the tableview to refresh data
 Use `UITableView`, `UIRefreshControl`, `Date`, `DateFormatter`
+
+
 
 
 ## 04. Emoji Slot Machine
@@ -21,9 +29,13 @@ Use `UITableView`, `UIRefreshControl`, `Date`, `DateFormatter`
 Use `UIPickerView` to make the view, `UILongPressGestureRecognizer` to make a gesture to cheat.
 
 
+
+
 ## 05. Photo Viewer
 ### A photo viewer using gesture to resizing.
 Use `UIScrollView` to resize picture and display part of it.
+
+
 
 
 ## 06. Color Gradient
@@ -31,9 +43,13 @@ Use `UIScrollView` to resize picture and display part of it.
 Use `UIPanGestureRecognizer`, `CAGradientLayer`.
 
 
+
+
 ## 07. Swipe Row
 ### Swipe on UITableViewRow, actions will display on the right.
 Use `UITableViewRowAction`, `UIAlertController`.
+
+
 
 
 ## 08. Stretchy Header
@@ -41,9 +57,13 @@ Use `UITableViewRowAction`, `UIAlertController`.
 Use `UIScrollView` - `scrollViewDidScrol` to get offset to resize picture.
 
 
+
+
 ## 09. Video Background
 ### Spotify-like video background on UIViewController
 Use `AVPlayerViewController`.
+
+
 
 
 ## 10. Tumblr Menu
@@ -51,12 +71,16 @@ Use `AVPlayerViewController`.
 Use `UIVisualEffectView`, `animate()`.
 
 
+
+
 ## 11. 3D Touch
 ### Quick action with 3D touch press on home screen and peek view in app.
 Use `UIApplicationShortcutItem`, `UIViewControllerPreviewingDelegate`.
 
 
+
 ## 12. Spotlight Search
+
 ### Search items in Spotlight.
 Use *CSSearchableItem* to create an item supports Spotlight. Use *CSSearchableItemAttributeSet* to configurate it.
 Implement
@@ -64,9 +88,13 @@ Implement
 in AppDelegate.swift to process after selecting a result in Spotlight.
 
 
+
+
 ## 13. Today Extension
 ### Add today extension to Today View.
 Use `App Group` to share data between App and Extension. Use `NSUserDefault` to save and load data.
+
+
 
 
 ## 14. Core Data
@@ -74,9 +102,13 @@ Use `App Group` to share data between App and Extension. Use `NSUserDefault` to 
 Use `CoreData` kit. Define entity first. Use `appDelegate.persistentContainer.viewContext` to save and read data.
 
 
+
+
 ## 15. Photo Read & Save
 ### Read photo from library and save photo to library.
 Use `UIImagePickerControllerDelegate` to select photo from library. Use `UIImageWriteToSavedPhotosAlbum()` to save photo.
+
+
 
 ## 16. QR Code
 ### Generate QR code.
@@ -88,4 +120,12 @@ Use `Core Image`, `CIFilter` to generate QR code.
 
 ### Detect face in photo.
 
-Use`Core Image`, `CIDetector`to detect face.
+Use `Core Image`, `CIDetector`to detect face.
+
+
+
+## 18. Popover Menu
+
+### A Wechat-like popover menu.
+
+Use `UIPopoverPresentationControllerDelegate`,  `PopoverMenuViewController`.
