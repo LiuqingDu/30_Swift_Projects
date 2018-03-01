@@ -129,3 +129,11 @@ Use `Core Image`, `CIDetector`to detect face.
 ### A Wechat-like popover menu.
 
 Use `UIPopoverPresentationControllerDelegate`,  `PopoverMenuViewController`.
+
+
+
+## 19. Vertical Menu Transition
+
+### Customize naviation transition to present a vertical menu.
+
+Use `UIViewControllerAnimatedTransitioning`, `UIViewControllerTransitioningDelegate`.
