@@ -145,3 +145,10 @@ Use `UIViewControllerAnimatedTransitioning`, `UIViewControllerTransitioningDeleg
 ### Customize transition to present view.
 
 Use `UICollectionViewDelegate` . Use `UIViewControllerAnimatedTransitioning` to customize transition.
+
+
+
+## 21. Circle Progress View
+### A circle progress view.
+
+Use `CAShapeLayer` to create dircle progress view class.

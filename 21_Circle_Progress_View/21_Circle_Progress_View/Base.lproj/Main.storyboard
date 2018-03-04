@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lUr-4Q-8NZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="XsO-dt-oWs">
+            <objects>
+                <viewController id="lUr-4Q-8NZ" customClass="ViewController" customModule="Project_32___CircleProgressView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fSM-Qa-4iR"/>
+                        <viewControllerLayoutGuide type="bottom" id="dMz-wh-dVm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8KW-Hp-Beu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-ea-G1g" customClass="ProgressView" customModule="Project_32___CircleProgressView" customModuleProvider="target">
+                                <rect key="frame" x="37" y="61" width="300" height="437"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrk-tD-AfL">
+                                        <rect key="frame" x="100" y="169" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="0zA-Us-nl2"/>
+                                            <constraint firstAttribute="height" constant="100" id="HkN-91-QTt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="xrk-tD-AfL" firstAttribute="centerX" secondItem="S4d-ea-G1g" secondAttribute="centerX" id="mhm-7I-w0H"/>
+                                    <constraint firstItem="xrk-tD-AfL" firstAttribute="centerY" secondItem="S4d-ea-G1g" secondAttribute="centerY" id="uha-vv-W0d"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufu-iv-AZD">
+                                <rect key="frame" x="225" y="511" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.1359787968" blue="0.085429990119999993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bUj-Zf-1Yo"/>
+                                    <constraint firstAttribute="width" constant="60" id="cm0-Nf-8oJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="zXL-6k-LY0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <state key="normal" title="—">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cm0-Nf-8oJ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="minusProgress:" destination="lUr-4Q-8NZ" eventType="touchUpInside" id="TF2-ww-DUA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aY-dX-lxh">
+                                <rect key="frame" x="90" y="511" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.18216370179999999" green="0.74070371690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="9hV-aG-rPc"/>
+                                    <constraint firstAttribute="height" constant="60" id="UUi-i1-kz8"/>
+                                    <constraint firstAttribute="width" constant="60" id="xJd-EI-7h0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9hV-aG-rPc"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="addProgress:" destination="lUr-4Q-8NZ" eventType="touchUpInside" id="2jQ-UZ-lM8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ufu-iv-AZD" firstAttribute="bottom" secondItem="7aY-dX-lxh" secondAttribute="bottom" id="4xA-0h-eOD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ufu-iv-AZD" secondAttribute="trailing" constant="74" id="7h6-75-BwT"/>
+                            <constraint firstItem="7aY-dX-lxh" firstAttribute="top" secondItem="S4d-ea-G1g" secondAttribute="bottom" constant="13" id="8Fg-R3-Vop"/>
+                            <constraint firstItem="S4d-ea-G1g" firstAttribute="leading" secondItem="8KW-Hp-Beu" secondAttribute="leading" constant="150" id="Hdy-BV-vvc"/>
+                            <constraint firstItem="dMz-wh-dVm" firstAttribute="top" secondItem="S4d-ea-G1g" secondAttribute="bottom" constant="185" id="MpD-OI-oHV"/>
+                            <constraint firstItem="Ufu-iv-AZD" firstAttribute="leading" secondItem="7aY-dX-lxh" secondAttribute="trailing" constant="75" id="Vug-Ue-Cex"/>
+                            <constraint firstItem="S4d-ea-G1g" firstAttribute="leading" secondItem="8KW-Hp-Beu" secondAttribute="leadingMargin" constant="21" id="cFQ-7B-UvG"/>
+                            <constraint firstItem="dMz-wh-dVm" firstAttribute="top" secondItem="7aY-dX-lxh" secondAttribute="bottom" constant="96" id="cQA-UZ-4L1"/>
+                            <constraint firstItem="S4d-ea-G1g" firstAttribute="centerX" secondItem="8KW-Hp-Beu" secondAttribute="centerX" id="kyN-5K-Ghd"/>
+                            <constraint firstItem="S4d-ea-G1g" firstAttribute="top" secondItem="fSM-Qa-4iR" secondAttribute="bottom" constant="41" id="u4e-fE-zy9"/>
+                            <constraint firstItem="7aY-dX-lxh" firstAttribute="leading" secondItem="8KW-Hp-Beu" secondAttribute="leadingMargin" constant="74" id="x7p-jn-sRz"/>
+                            <constraint firstItem="7aY-dX-lxh" firstAttribute="top" secondItem="Ufu-iv-AZD" secondAttribute="top" id="y5T-mO-1Ax"/>
+                            <constraint firstItem="7aY-dX-lxh" firstAttribute="leading" secondItem="8KW-Hp-Beu" secondAttribute="leading" constant="174" id="z1K-7Y-miU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6dE-xS-Ecp"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hdy-BV-vvc"/>
+                                <exclude reference="z1K-7Y-miU"/>
+                                <exclude reference="MpD-OI-oHV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="7aY-dX-lxh" id="lGg-Yx-oOT"/>
+                        <outlet property="minusButton" destination="Ufu-iv-AZD" id="2Lc-Nz-3W6"/>
+                        <outlet property="progerssView" destination="S4d-ea-G1g" id="Srb-Tl-ZQR"/>
+                        <outlet property="progressLabel" destination="xrk-tD-AfL" id="X6A-vT-FMn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OKH-k2-cEU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="389"/>
+        </scene>
+    </scenes>
+</document>
