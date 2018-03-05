@@ -152,3 +152,11 @@ Use `UICollectionViewDelegate` . Use `UIViewControllerAnimatedTransitioning` to 
 ### A circle progress view.
 
 Use `CAShapeLayer` to create dircle progress view class.
+
+
+
+## 22. Twitter Splash View
+
+### A twitter-like splash view.
+
+Use `CAAnimationDelegate`, `CABasicAnimation`, `CAmediaTimingFunction`.
