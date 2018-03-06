@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PsI-bs-1ud">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qSs-sf-ZSI">
+            <objects>
+                <viewController id="PsI-bs-1ud" customClass="ViewController" customModule="Project_39___FloatingButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ldm-q1-xdO"/>
+                        <viewControllerLayoutGuide type="bottom" id="iZo-bj-NvC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Spj-sx-uHD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ruu-4H-JFV" userLabel="wechat">
+                                <rect key="frame" x="195" y="318" width="160" height="60"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat" translatesAutoresizingMaskIntoConstraints="NO" id="DTg-jz-YMQ">
+                                        <rect key="frame" x="100" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="2U5-02-QNq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WeChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzH-mQ-8v8">
+                                        <rect key="frame" x="8" y="10" width="80" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="RzH-mQ-8v8" firstAttribute="centerY" secondItem="DTg-jz-YMQ" secondAttribute="centerY" id="Suy-Bw-txV"/>
+                                    <constraint firstAttribute="height" constant="60" id="YNq-Z0-DAk"/>
+                                    <constraint firstAttribute="trailing" secondItem="DTg-jz-YMQ" secondAttribute="trailing" id="fWO-j6-Gbn"/>
+                                    <constraint firstItem="RzH-mQ-8v8" firstAttribute="top" secondItem="Ruu-4H-JFV" secondAttribute="top" constant="10" id="kvX-51-7iv"/>
+                                    <constraint firstItem="DTg-jz-YMQ" firstAttribute="top" secondItem="Ruu-4H-JFV" secondAttribute="top" id="pbZ-OV-3Az"/>
+                                    <constraint firstItem="DTg-jz-YMQ" firstAttribute="leading" secondItem="RzH-mQ-8v8" secondAttribute="trailing" constant="12" id="uyk-0M-8rz"/>
+                                    <constraint firstAttribute="width" constant="160" id="w9n-zM-vfX"/>
+                                    <constraint firstAttribute="bottom" secondItem="DTg-jz-YMQ" secondAttribute="bottom" id="yHO-hb-dDq"/>
+                                    <constraint firstItem="RzH-mQ-8v8" firstAttribute="leading" secondItem="Ruu-4H-JFV" secondAttribute="leadingMargin" id="zeP-Z2-R77"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="yHO-hb-dDq"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbj-W4-pcD" userLabel="qq">
+                                <rect key="frame" x="195" y="407" width="160" height="60"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QQ" translatesAutoresizingMaskIntoConstraints="NO" id="MYH-iF-Ct7">
+                                        <rect key="frame" x="100" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="nYd-AV-NFG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfx-xE-c6V">
+                                        <rect key="frame" x="8" y="10" width="80" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MYH-iF-Ct7" secondAttribute="trailing" id="8E8-AO-SB5"/>
+                                    <constraint firstItem="MYH-iF-Ct7" firstAttribute="centerY" secondItem="Wfx-xE-c6V" secondAttribute="centerY" id="Kvk-hC-ZqS"/>
+                                    <constraint firstItem="Wfx-xE-c6V" firstAttribute="leading" secondItem="rbj-W4-pcD" secondAttribute="leadingMargin" id="MNM-ud-3au"/>
+                                    <constraint firstItem="MYH-iF-Ct7" firstAttribute="leading" secondItem="Wfx-xE-c6V" secondAttribute="trailing" constant="12" id="QmF-Dg-j8t"/>
+                                    <constraint firstAttribute="bottom" secondItem="MYH-iF-Ct7" secondAttribute="bottom" id="VUc-r3-Zgq"/>
+                                    <constraint firstItem="MYH-iF-Ct7" firstAttribute="top" secondItem="rbj-W4-pcD" secondAttribute="top" id="oiJ-om-Upt"/>
+                                    <constraint firstAttribute="height" constant="60" id="vcb-Qm-F1N"/>
+                                    <constraint firstAttribute="width" constant="160" id="vvG-h9-sBA"/>
+                                    <constraint firstItem="Wfx-xE-c6V" firstAttribute="top" secondItem="rbj-W4-pcD" secondAttribute="top" constant="10" id="yUm-aM-wr2"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VUc-r3-Zgq"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Q1-d1-BEo" userLabel="weibo">
+                                <rect key="frame" x="195" y="497" width="160" height="60"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weibo" translatesAutoresizingMaskIntoConstraints="NO" id="QYa-my-OMa">
+                                        <rect key="frame" x="100" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="5Fe-UL-KBL"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weibo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SG-pE-3y3">
+                                        <rect key="frame" x="8" y="10" width="80" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="QYa-my-OMa" firstAttribute="centerY" secondItem="3SG-pE-3y3" secondAttribute="centerY" id="3a3-lh-uWu"/>
+                                    <constraint firstAttribute="height" constant="60" id="4to-Cq-lm6"/>
+                                    <constraint firstAttribute="trailing" secondItem="QYa-my-OMa" secondAttribute="trailing" id="G2D-PU-iYs"/>
+                                    <constraint firstItem="3SG-pE-3y3" firstAttribute="leading" secondItem="8Q1-d1-BEo" secondAttribute="leadingMargin" id="JUR-jD-YXv"/>
+                                    <constraint firstItem="3SG-pE-3y3" firstAttribute="top" secondItem="8Q1-d1-BEo" secondAttribute="top" constant="10" id="QJs-Bg-88v"/>
+                                    <constraint firstAttribute="width" constant="160" id="i8E-rf-Owi"/>
+                                    <constraint firstItem="QYa-my-OMa" firstAttribute="top" secondItem="8Q1-d1-BEo" secondAttribute="top" id="i8r-9P-kO6"/>
+                                    <constraint firstItem="QYa-my-OMa" firstAttribute="leading" secondItem="3SG-pE-3y3" secondAttribute="trailing" constant="12" id="snJ-33-J2d"/>
+                                    <constraint firstAttribute="bottom" secondItem="QYa-my-OMa" secondAttribute="bottom" id="yID-FB-k5m"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="yID-FB-k5m"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus" translatesAutoresizingMaskIntoConstraints="NO" id="MwC-KD-u2H" userLabel="button">
+                                <rect key="frame" x="295" y="587" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="SO7-FN-YKP"/>
+                                    <constraint firstAttribute="width" constant="60" id="mEA-2i-3Bu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Q1-d1-BEo" firstAttribute="trailing" secondItem="MwC-KD-u2H" secondAttribute="trailing" id="4OE-fm-bOh"/>
+                            <constraint firstItem="8Q1-d1-BEo" firstAttribute="top" secondItem="rbj-W4-pcD" secondAttribute="bottom" constant="30" id="5lA-C9-eLn"/>
+                            <constraint firstItem="MwC-KD-u2H" firstAttribute="top" secondItem="8Q1-d1-BEo" secondAttribute="bottom" constant="30" id="IKt-Oi-ib6"/>
+                            <constraint firstItem="8Q1-d1-BEo" firstAttribute="trailing" secondItem="rbj-W4-pcD" secondAttribute="trailing" id="XUP-6O-11h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ruu-4H-JFV" secondAttribute="trailing" constant="4" id="okZ-a3-Y5l"/>
+                            <constraint firstItem="rbj-W4-pcD" firstAttribute="top" secondItem="Ruu-4H-JFV" secondAttribute="bottom" constant="29" id="tgt-NQ-woo"/>
+                            <constraint firstAttribute="bottom" secondItem="MwC-KD-u2H" secondAttribute="bottom" constant="20" symbolic="YES" id="y2A-OU-c4c"/>
+                            <constraint firstItem="rbj-W4-pcD" firstAttribute="trailing" secondItem="Ruu-4H-JFV" secondAttribute="trailing" id="zYF-mE-A5Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFm-3y-A9q"/>
+                    </view>
+                    <connections>
+                        <outlet property="floatingButtonImageView" destination="MwC-KD-u2H" id="yUI-LS-9Dj"/>
+                        <outlet property="floatingButtonTopToWeiboViewBottomConstraint" destination="IKt-Oi-ib6" id="71T-zl-oOY"/>
+                        <outlet property="qqImageView" destination="MYH-iF-Ct7" id="ZMT-Jb-F7y"/>
+                        <outlet property="qqLabel" destination="Wfx-xE-c6V" id="axe-MW-m9g"/>
+                        <outlet property="qqView" destination="rbj-W4-pcD" id="HNn-Hb-lfI"/>
+                        <outlet property="qqViewTopToWeChatViewBottomConstraint" destination="tgt-NQ-woo" id="xok-Dg-ZLi"/>
+                        <outlet property="wechatImageView" destination="DTg-jz-YMQ" id="QRk-3R-Sn7"/>
+                        <outlet property="wechatLabel" destination="RzH-mQ-8v8" id="8lY-Ml-U8o"/>
+                        <outlet property="wechatView" destination="Ruu-4H-JFV" id="HeW-bo-Le3"/>
+                        <outlet property="weiboImageView" destination="QYa-my-OMa" id="O6V-IN-sFe"/>
+                        <outlet property="weiboLabel" destination="3SG-pE-3y3" id="i2f-3V-aQ6"/>
+                        <outlet property="weiboView" destination="8Q1-d1-BEo" id="odJ-7h-uYT"/>
+                        <outlet property="weiboViewTopToQQViewBottomConstraint" destination="5lA-C9-eLn" id="sOk-vI-V6H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V8h-ee-fvX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305.5" y="388.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="QQ" width="60" height="60"/>
+        <image name="plus" width="60" height="60"/>
+        <image name="wechat" width="60" height="60"/>
+        <image name="weibo" width="60" height="60"/>
+    </resources>
+</document>

@@ -160,3 +160,10 @@ Use `CAShapeLayer` to create dircle progress view class.
 ### A twitter-like splash view.
 
 Use `CAAnimationDelegate`, `CABasicAnimation`, `CAmediaTimingFunction`.
+
+
+## 23. Floating Menu
+
+### A menu with floating item.
+
+Use `CGAffineTransform`, `UIVIew.animate()`.
