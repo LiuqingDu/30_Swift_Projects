@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vF7-Tv-Bo2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="eOs-Vy-fj6">
+            <objects>
+                <collectionViewController id="x8l-qF-3vJ" customClass="MenuViewController" customModule="Project_48___ZoomingIcons" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="vfr-yJ-tFm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="20" id="rsp-ke-xRW">
+                            <size key="itemSize" width="80" height="80"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="40"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ekO-Dw-Z8x" customClass="SocialItemCell" customModule="Project_48___ZoomingIcons" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaK-m5-FGs">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <color key="backgroundColor" red="0.22704142329999999" green="0.67161822319999998" blue="0.98722648619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-twitter" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-Iq-HPK" userLabel="Image View">
+                                            <rect key="frame" x="15" y="15" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="BGJ-fC-cB5"/>
+                                                <constraint firstAttribute="width" constant="50" id="xYu-Vs-Va2"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vaK-m5-FGs" secondAttribute="trailing" id="9FH-QD-z0S"/>
+                                    <constraint firstAttribute="centerX" secondItem="mvd-Iq-HPK" secondAttribute="centerX" id="DTG-FH-VBf"/>
+                                    <constraint firstItem="vaK-m5-FGs" firstAttribute="leading" secondItem="ekO-Dw-Z8x" secondAttribute="leading" id="Hbu-oh-uLS"/>
+                                    <constraint firstItem="vaK-m5-FGs" firstAttribute="top" secondItem="ekO-Dw-Z8x" secondAttribute="top" id="pPI-iv-uuM"/>
+                                    <constraint firstAttribute="bottom" secondItem="vaK-m5-FGs" secondAttribute="bottom" id="ssT-K2-eyU"/>
+                                    <constraint firstAttribute="centerY" secondItem="mvd-Iq-HPK" secondAttribute="centerY" id="ync-O3-cHC"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="coloredView" destination="vaK-m5-FGs" id="3hM-TJ-Ftd"/>
+                                    <outlet property="imageView" destination="mvd-Iq-HPK" id="pib-DM-oFk"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="x8l-qF-3vJ" id="9tb-79-bue"/>
+                            <outlet property="delegate" destination="x8l-qF-3vJ" id="tGM-33-m7a"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="8QX-0n-VFi"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYp-su-p2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="413"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="VGu-Qx-ACo">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="6kK-x3-Jlf" customClass="DetailViewController" customModule="Project_48___ZoomingIcons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o05-9w-60X"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xzl-Ik-afD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WQb-Cv-lx2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVG-Mj-A9u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.67843137249999996" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-twitter" translatesAutoresizingMaskIntoConstraints="NO" id="BEH-oy-SOZ">
+                                <rect key="frame" x="87.5" y="120" width="200" height="166"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htc-6F-Fn1">
+                                <rect key="frame" x="0.0" y="20" width="44" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="Oos-je-cT5"/>
+                                    <constraint firstAttribute="height" constant="64" id="XFj-Io-Y26"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="icon-back"/>
+                                <connections>
+                                    <action selector="handleBackButton:" destination="6kK-x3-Jlf" eventType="touchUpInside" id="src-Np-DHK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vc-ex-3b4">
+                                <rect key="frame" x="147.5" y="477" width="79.5" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.99987119440000005" green="0.99998223779999995" blue="0.99984109399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hU8-pQ-88l">
+                                <rect key="frame" x="16" y="526" width="343" height="61"/>
+                                <string key="text">Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets".</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99987119440000005" green="0.99998223779999995" blue="0.99984109399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xzl-Ik-afD" firstAttribute="top" secondItem="hU8-pQ-88l" secondAttribute="bottom" constant="80" id="FES-sB-sts"/>
+                            <constraint firstItem="BEH-oy-SOZ" firstAttribute="top" secondItem="o05-9w-60X" secondAttribute="bottom" constant="100" id="H6E-bS-ofM"/>
+                            <constraint firstItem="0Vc-ex-3b4" firstAttribute="centerX" secondItem="hU8-pQ-88l" secondAttribute="centerX" id="IEQ-Ss-cit"/>
+                            <constraint firstItem="eVG-Mj-A9u" firstAttribute="top" secondItem="WQb-Cv-lx2" secondAttribute="top" id="VoD-xq-7zY"/>
+                            <constraint firstItem="eVG-Mj-A9u" firstAttribute="leading" secondItem="WQb-Cv-lx2" secondAttribute="leading" id="bQV-Jc-2gc"/>
+                            <constraint firstItem="hU8-pQ-88l" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WQb-Cv-lx2" secondAttribute="leadingMargin" id="cIA-fY-rkq"/>
+                            <constraint firstAttribute="centerX" secondItem="BEH-oy-SOZ" secondAttribute="centerX" id="czJ-zO-cc3"/>
+                            <constraint firstAttribute="trailing" secondItem="eVG-Mj-A9u" secondAttribute="trailing" id="dJk-LK-glI"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="hU8-pQ-88l" secondAttribute="trailing" id="i55-4a-06H"/>
+                            <constraint firstItem="htc-6F-Fn1" firstAttribute="leading" secondItem="WQb-Cv-lx2" secondAttribute="leading" id="iWN-2T-Fyi"/>
+                            <constraint firstItem="htc-6F-Fn1" firstAttribute="top" secondItem="o05-9w-60X" secondAttribute="bottom" id="nGo-V5-xDO"/>
+                            <constraint firstItem="hU8-pQ-88l" firstAttribute="top" secondItem="0Vc-ex-3b4" secondAttribute="bottom" constant="20" id="ndU-nG-Elv"/>
+                            <constraint firstItem="Xzl-Ik-afD" firstAttribute="top" secondItem="eVG-Mj-A9u" secondAttribute="bottom" id="r4d-gJ-LZT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z0P-Ud-HYU"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButtonTopConstraint" destination="nGo-V5-xDO" id="Qbl-YI-uXj"/>
+                        <outlet property="coloredView" destination="eVG-Mj-A9u" id="ZT7-hj-a0A"/>
+                        <outlet property="imageView" destination="BEH-oy-SOZ" id="NnH-J9-mqR"/>
+                        <outlet property="summaryLabel" destination="hU8-pQ-88l" id="GLe-EE-MqP"/>
+                        <outlet property="summaryLabelBottomConstraint" destination="FES-sB-sts" id="W6V-J8-0iU"/>
+                        <outlet property="titleLabel" destination="0Vc-ex-3b4" id="oK9-7e-83J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGM-u1-y9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824" y="413"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nKH-LO-uIM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="vF7-Tv-Bo2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="G5u-uI-Qr1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="delegate" destination="qda-oL-4fn" id="h1f-iQ-S1O"/>
+                        <segue destination="x8l-qF-3vJ" kind="relationship" relationship="rootViewController" id="FEq-GI-XWM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rY5-R6-bTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="qda-oL-4fn" customClass="ZoomingIconTransition" customModule="Project_48___ZoomingIcons" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="413"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-back" width="13" height="21"/>
+        <image name="icon-twitter" width="200" height="166"/>
+    </resources>
+</document>
