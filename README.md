@@ -177,3 +177,10 @@ Use `CGAffineTransform`, `UIVIew.animate()`.
 ### Apply zooming animation to a icon.
 
 Use `UIViewControllerAnimatedTransitioning`, `CGAffineTransform`.
+
+
+## 25. Google Now UI
+
+### Display a Google Now-like interface.
+
+Use `UIViewControllerAnimatedTransitioning`.
