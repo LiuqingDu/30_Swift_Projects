@@ -179,8 +179,19 @@ Use `CGAffineTransform`, `UIVIew.animate()`.
 Use `UIViewControllerAnimatedTransitioning`, `CGAffineTransform`.
 
 
+
+
 ## 25. Google Now UI
 
 ### Display a Google Now-like interface.
 
 Use `UIViewControllerAnimatedTransitioning`.
+
+
+
+## 26. Snapchat Slip Camera
+
+### A Snapchat-Like camera view.
+
+Use `AVCapturePhotoCaptureDelegate`, `AVCaptureDevice`, `AVCaptureVideoPreviewLayer`.
+
