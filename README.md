@@ -210,3 +210,11 @@ Use ` Timer`.
 ### A drawing board that can save pic to system album.
 
 Override `touchesBegin()` , `touchesMoved` to detect touch and save lines between touch points. Override `draw()` to display all lines.
+
+
+
+## 29. Launch Guide View
+
+## A guide view at first launch.
+
+Use `UserDefault.standard` to check if it is first launch. Implement `UIScrollViewDelegate`, use `UIPageControl`.

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ind-M6-fFR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Guide View Controller-->
+        <scene sceneID="iHD-9n-BaG">
+            <objects>
+                <viewController storyboardIdentifier="GuideViewController" id="Ind-M6-fFR" customClass="GuideViewController" customModule="Project_53___AppGuideView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f5t-xW-jlI"/>
+                        <viewControllerLayoutGuide type="bottom" id="s19-aE-ajt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a4a-lu-il5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="JHb-d9-S9m">
+                                <rect key="frame" x="160" y="610" width="55" height="37"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAk-QV-nzY">
+                                <rect key="frame" x="125" y="549" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.23921568630000001" green="0.61960784310000006" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="6RH-Fz-J2C"/>
+                                    <constraint firstAttribute="height" constant="45" id="gby-kn-bSi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="开始使用">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JHb-d9-S9m" firstAttribute="top" secondItem="wAk-QV-nzY" secondAttribute="bottom" constant="16" id="9bn-1I-86C"/>
+                            <constraint firstItem="wAk-QV-nzY" firstAttribute="centerX" secondItem="JHb-d9-S9m" secondAttribute="centerX" id="Viv-Db-b9Q"/>
+                            <constraint firstItem="s19-aE-ajt" firstAttribute="top" secondItem="JHb-d9-S9m" secondAttribute="bottom" constant="20" id="uaJ-oA-oxX"/>
+                            <constraint firstItem="JHb-d9-S9m" firstAttribute="centerX" secondItem="a4a-lu-il5" secondAttribute="centerX" id="wnf-R5-lDv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f1o-zc-mQa"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="JHb-d9-S9m" id="Csu-2v-5z1"/>
+                        <outlet property="startButton" destination="wAk-QV-nzY" id="QKu-Ew-xSK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1f-5H-pAm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
