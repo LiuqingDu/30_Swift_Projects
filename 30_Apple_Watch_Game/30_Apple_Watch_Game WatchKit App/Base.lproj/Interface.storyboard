@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6fV-3F-VCp">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="qd2-91-bn1">
+            <objects>
+                <controller id="6fV-3F-VCp" customClass="InterfaceController" customModule="WatchApp_Guess_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="CDv-ZZ-ETM">
+                            <connections>
+                                <action selector="sliderUpdate:" destination="6fV-3F-VCp" id="OMQ-hg-CIE"/>
+                            </connections>
+                        </slider>
+                        <label alignment="center" verticalAlignment="center" text="Your guess: 3" id="7st-W7-1tX"/>
+                        <button width="1" alignment="left" verticalAlignment="center" title="Guess" id="0fk-BZ-PsC">
+                            <connections>
+                                <action selector="guessAction" destination="6fV-3F-VCp" id="T0W-2t-lBx"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" verticalAlignment="bottom" minimumScaleFactor="0.59999999999999998" id="DcM-o6-lFb"/>
+                        <label alignment="center" verticalAlignment="bottom" text="Press Guess to play" id="B7i-x7-ppD">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="resultConfirmButton" destination="0fk-BZ-PsC" id="O13-4K-JdT"/>
+                        <outlet property="resultLabel" destination="7st-W7-1tX" id="0k2-p5-gpk"/>
+                        <outlet property="resultOfGuess" destination="DcM-o6-lFb" id="gCB-hX-Tc4"/>
+                        <outlet property="resultSlider" destination="CDv-ZZ-ETM" id="xYA-hL-yVH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>

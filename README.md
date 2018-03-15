@@ -218,3 +218,11 @@ Override `touchesBegin()` , `touchesMoved` to detect touch and save lines betwee
 ## A guide view at first launch.
 
 Use `UserDefault.standard` to check if it is first launch. Implement `UIScrollViewDelegate`, use `UIPageControl`.
+
+
+
+## 30. Apple Watch Game
+
+### A guess number game on Apple Watch
+
+Use `WatchConnectivity` to transfer data between iPhone and Apple Watch.
