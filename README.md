@@ -79,6 +79,7 @@ Use `UIApplicationShortcutItem`, `UIViewControllerPreviewingDelegate`.
 
 
 
+
 ## 12. Spotlight Search
 
 ### Search items in Spotlight.
@@ -124,11 +125,13 @@ Use `Core Image`, `CIDetector`to detect face.
 
 
 
+
 ## 18. Popover Menu
 
 ### A Wechat-like popover menu.
 
 Use `UIPopoverPresentationControllerDelegate`,  `PopoverMenuViewController`.
+
 
 
 
@@ -140,6 +143,7 @@ Use `UIViewControllerAnimatedTransitioning`, `UIViewControllerTransitioningDeleg
 
 
 
+
 ## 20. Custom Transition
 
 ### Customize transition to present view.
@@ -148,10 +152,12 @@ Use `UICollectionViewDelegate` . Use `UIViewControllerAnimatedTransitioning` to 
 
 
 
+
 ## 21. Circle Progress View
 ### A circle progress view.
 
 Use `CAShapeLayer` to create dircle progress view class.
+
 
 
 
@@ -172,6 +178,7 @@ Use `CGAffineTransform`, `UIVIew.animate()`.
 
 
 
+
 ## 24. Zooming Icon
 
 ### Apply zooming animation to a icon.
@@ -189,11 +196,13 @@ Use `UIViewControllerAnimatedTransitioning`.
 
 
 
+
 ## 26. Snapchat Slip Camera
 
 ### A Snapchat-Like camera view.
 
 Use `AVCapturePhotoCaptureDelegate`, `AVCaptureDevice`, `AVCaptureVideoPreviewLayer`.
+
 
 
 
@@ -205,6 +214,7 @@ Use ` Timer`.
 
 
 
+
 ## 28. Drawing Board
 
 ### A drawing board that can save pic to system album.
@@ -213,11 +223,13 @@ Override `touchesBegin()` , `touchesMoved` to detect touch and save lines betwee
 
 
 
+
 ## 29. Launch Guide View
 
 ## A guide view at first launch.
 
 Use `UserDefault.standard` to check if it is first launch. Implement `UIScrollViewDelegate`, use `UIPageControl`.
+
 
 
 
